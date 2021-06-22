@@ -2,7 +2,7 @@
 MCU = at90usb646
 
 # Bootloader selection
-BOOTLOADER = lufa-dfu
+BOOTLOADER = qmk-dfu
 
 # Build Options
 #  change yes to no to disable
@@ -20,4 +20,4 @@ BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
 BLUETOOTH_ENABLE = no       # Enable Bluetooth
 AUDIO_ENABLE = no           # Audio output
-BACKLIGHT_DRIVER = custom
+BACKLIGHT_DRIVER = pwm
